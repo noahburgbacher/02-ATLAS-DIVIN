@@ -8,8 +8,8 @@
 .pantheon-card {
   height: 292px;
   width: 305px;
-  background-color: #fff;
-  border: 2px solid #279ef8;
+  background-color: var(--background);
+  border: 2px solid var(--blue);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -43,11 +43,16 @@
   max-width: fit-content;
   font-size: 20px;
   font-family: "Caesar Dressing";
-  color: #279ef8;
+  color: var(--blue);
 }
 .pantheon-categorie {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 12px;
+  padding: 12px 12px 0px 12px;
+}
+.pantheon-description {
+  font-size: 16px;
+  color: var(--text);
+  padding: 0px 0px 12px 12px;
 }

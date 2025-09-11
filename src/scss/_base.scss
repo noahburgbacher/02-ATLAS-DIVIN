@@ -3,6 +3,16 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --blue: #279ef8;
+  --yellow: #f8af27;
+  --green: #12965d;
+  --red: #f82727;
+  --grey: #bcbfc3;
+  --background: #ffffff;
+  --text: #515050;
+  --text-secondary: #000000;
+}
 
 a {
   color: inherit;
@@ -16,17 +26,11 @@ video {
 body {
   font-size: 20px;
   font-family: "Bubbler One";
-  color: #515050;
+  color: var(--text);
   text-align: left;
   display: inline-block;
+  background-color: var(--background);
 }
 main {
   width: 100vw;
-}
-
-:root {
-  --blue: #279ef8;
-  --yellow: #f8af27;
-  --green: #12965d;
-  --red: #f82727;
 }
