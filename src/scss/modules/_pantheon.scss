@@ -1,0 +1,53 @@
+.pantheon-cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.pantheon-card {
+  height: 292px;
+  width: 305px;
+  background-color: #fff;
+  border: 2px solid #279ef8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 0px;
+}
+.pantheon-image {
+  position: absolute;
+  height: 100%;
+  width: 301px;
+  display: flex;
+  img {
+    height: 216px;
+    width: 301px;
+    border-radius: 6px 6px 0 0;
+  }
+}
+.pantheon-bookmark {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  z-index: 10;
+  margin-bottom: 128px;
+}
+.pantheon-title {
+  z-index: 10;
+  background-color: white;
+  padding: 8px 12px;
+  color: black;
+  max-width: fit-content;
+  font-size: 20px;
+  font-family: "Caesar Dressing";
+  color: #279ef8;
+}
+.pantheon-categorie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px;
+}

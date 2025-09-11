@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Bubbler One";
+  color: #515050;
+  text-align: left;
+  display: inline-block;
+}
+main {
+  width: 100vw;
+}
+
+:root {
+  --blue: #279ef8;
+  --yellow: #f8af27;
+  --green: #12965d;
+  --red: #f82727;
+}

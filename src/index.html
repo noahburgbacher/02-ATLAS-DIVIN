@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eikon parcel starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Caesar+Dressing&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <header class="header-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 header-container">
+              <span class="header-logo">Atlas Divin</span>
+              <span class="header-burger-menu"
+                ><svg
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_57_2369)">
+                    <path
+                      d="M4 6.5H20"
+                      stroke="#21272A"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4 12.5H20"
+                      stroke="#21272A"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4 18.5H16"
+                      stroke="#21272A"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_57_2369">
+                      <rect
+                        width="24"
+                        height="24"
+                        fill="white"
+                        transform="translate(0 0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </div>
+            <div class="col-4 col-md-8">
+              <nav class="header-nav">
+                <a href="">Mes favoris</a>
+                <a href="">Dieu du jour</a>
+                <a href="">Dieux populaires</a>
+                <button class="header-dark-mode">
+                  <svg
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_2001_754)">
+                      <path
+                        d="M12 3.5C12.132 3.5 12.263 3.5 12.393 3.5C11.1084 4.69371 10.2826 6.29984 10.0593 8.03922C9.83602 9.7786 10.2293 11.5412 11.1708 13.0207C12.1122 14.5002 13.5424 15.603 15.2126 16.1375C16.8829 16.6719 18.6876 16.6041 20.313 15.946C19.6878 17.4505 18.6658 18.757 17.3562 19.7263C16.0466 20.6955 14.4985 21.291 12.8769 21.4494C11.2554 21.6077 9.62129 21.323 8.14892 20.6254C6.67654 19.9278 5.42114 18.8437 4.51661 17.4886C3.61209 16.1335 3.09238 14.5583 3.01291 12.931C2.93345 11.3037 3.29721 9.6853 4.0654 8.24851C4.83359 6.81173 5.97739 5.61042 7.37479 4.77273C8.77219 3.93504 10.3708 3.49239 12 3.492V3.5Z"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2001_754">
+                        <rect
+                          width="24"
+                          height="24"
+                          fill="white"
+                          transform="translate(0 0.5)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <header class="header-navigation-mobile">
+        <div class="col-12">
+          <nav class="header-nav-mobile">
+            <a href="">Mes favoris</a>
+            <a href="">Dieu du jour</a>
+            <a href="">Dieux populaires</a>
+            <span></span>
+            <button class="header-dark-mode">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2001_754)">
+                  <path
+                    d="M12 3.5C12.132 3.5 12.263 3.5 12.393 3.5C11.1084 4.69371 10.2826 6.29984 10.0593 8.03922C9.83602 9.7786 10.2293 11.5412 11.1708 13.0207C12.1122 14.5002 13.5424 15.603 15.2126 16.1375C16.8829 16.6719 18.6876 16.6041 20.313 15.946C19.6878 17.4505 18.6658 18.757 17.3562 19.7263C16.0466 20.6955 14.4985 21.291 12.8769 21.4494C11.2554 21.6077 9.62129 21.323 8.14892 20.6254C6.67654 19.9278 5.42114 18.8437 4.51661 17.4886C3.61209 16.1335 3.09238 14.5583 3.01291 12.931C2.93345 11.3037 3.29721 9.6853 4.0654 8.24851C4.83359 6.81173 5.97739 5.61042 7.37479 4.77273C8.77219 3.93504 10.3708 3.49239 12 3.492V3.5Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2001_754">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </header>
+    </header>
+    <main>
+      <div class="container">
+      <div class="row">
+          <div class="col-9 offset-3">
+            <h1 class="title">Voir les dieux des panthéons</h1>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-9 offset-3">
+          <section class="dieu-du-jour">
+            <h3>Dieu du jour</h3>
+            <h2>Bacchus</h2>
+            <p class="dieu-du-jour-description">Dieu romain du vin</p>
+            <p class="dieu-du-jour-texte">Egalement Dieu de l'ivresse, des débordements, de la nature et des festivités. </p>
+            <p class="dieu-du-jour-texte-2">Bacchus est un dieu romain correspondant à Dionysos dans la mythologie grecque. Les Romains utilisaient Bacchus comme un autre nom de Liber Pater, un dieu latin de la fécondité.</p>
+            <div class="dieu-du-jour-container-link">
+              <a href="">En savoir plus</a>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_105_894)">
+              <path d="M5 12H19" stroke="#515050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 16L19 12" stroke="#515050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 8L19 12" stroke="#515050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_105_894">
+              <rect width="24" height="24" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+
+          </section>
+        </div>
+      </div>
+      <div class="container l-pantheon">
+        <div class="row">
+          <div class="col-12 col-md-3 pantheon-menu">
+            Panthéons populaires
+            <div class="pantheon-menu-button-container">
+              <button class="pantheon-menu-buttons blue">Panthéon Grec <img src="img/arrow-narrow-right.svg" alt=""></button>
+              <button class="pantheon-menu-buttons yellow">Panthéon Égyptien <img src="img/arrow-narrow-right.svg" alt=""></button>
+              <button class="pantheon-menu-buttons green">Panthéon Nordique <img src="img/arrow-narrow-right.svg" alt=""></button>
+              <button class="pantheon-menu-buttons red">Panthéon Romain <img src="img/arrow-narrow-right.svg" alt=""></button>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-9">
+            <div class="pantheon-cards-container">
+              <div class="pantheon-card">
+                <div class="pantheon-image">
+                  <img src="img/athena.png" alt="">
+                </div>
+                <div class="pantheon-bookmark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.37868 2.37868C5.94129 1.81607 6.70435 1.5 7.5 1.5H16.5C17.2956 1.5 18.0587 1.81607 18.6213 2.37868C19.1839 2.94129 19.5 3.70435 19.5 4.5V21.75C19.5 22.0453 19.3267 22.3132 19.0572 22.4342C18.7878 22.5552 18.4725 22.5068 18.2517 22.3106L12 16.7535L5.74827 22.3106C5.52753 22.5068 5.21218 22.5552 4.94276 22.4342C4.67333 22.3132 4.5 22.0453 4.5 21.75V4.5C4.5 3.70435 4.81607 2.94129 5.37868 2.37868ZM7.5 3C7.10218 3 6.72064 3.15804 6.43934 3.43934C6.15804 3.72064 6 4.10218 6 4.5V20.0799L11.5017 15.1894C11.7859 14.9369 12.2141 14.9369 12.4983 15.1894L18 20.0799V4.5C18 4.10218 17.842 3.72064 17.5607 3.43934C17.2794 3.15804 16.8978 3 16.5 3H7.5Z" fill="#279EF8"/>
+</svg>
+</div>
+                <h3 class="pantheon-title">Athéna</h3>
+                <div class="pantheon-categorie"><h3>Panthéon grec</h3><svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 0.982788C5.85612 0.982788 0.857143 5.36404 0.857143 10.7488C0.857143 14.6893 3.60746 18.168 7.71428 19.6858V20.5148H1.71429V19.0123H0V22.0172H9.42857V18.7159L8.8577 18.5385C5.08557 17.3693 2.57143 14.2523 2.57143 10.7489C2.57143 6.17611 6.78259 2.48536 12 2.48536C17.2174 2.48536 21.4286 6.17611 21.4286 10.7489C21.4286 14.2523 18.9143 17.3693 15.1456 18.5385L14.5764 18.7159L14.5698 22.0172H24V19.0123H22.2857V20.5148H16.2874L16.2891 19.6843C20.3927 18.1663 23.1429 14.6891 23.1429 10.7488C23.1429 5.36404 18.1439 0.982788 12 0.982788Z" fill="#279EF8"/>
+</svg>
+</div>
+                <div>Déesse de la guerre</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
+    <footer></footer>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.pantheon-menu {
+  font-size: 24px;
+}
+.pantheon-menu-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: "Caesar Dressing";
+}
+.pantheon-menu-buttons.red {
+  background-color: var(--red);
+}
+.pantheon-menu-buttons.blue {
+  background-color: var(--blue);
+}
+.pantheon-menu-buttons.green {
+  background-color: var(--green);
+}
+.pantheon-menu-buttons.yellow {
+  background-color: var(--yellow);
+}
+.pantheon-menu-button-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
