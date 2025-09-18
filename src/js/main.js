@@ -48,3 +48,37 @@ document.querySelectorAll(".header-dark-mode").forEach((btn) => {
     });
   });
 });
+
+// Filtrer selon les catégories
+const categories = ["green", "blue", "red", "yellow"];
+
+categories.forEach((category) => {
+  document.querySelectorAll(`button.${category}`).forEach((btn) => {
+    btn.addEventListener("click", function () {
+      const isActive = btn.classList.contains("active-filter");
+      document
+        .querySelectorAll("button.active-filter")
+        .forEach((b) => b.classList.remove("active-filter"));
+
+      if (isActive) {
+        // Remove hidden from all cards
+        categories.forEach((cat) => {
+          document
+            .querySelectorAll(`div.${cat}`)
+            .forEach((card) => card.classList.remove("hidden"));
+        });
+      } else {
+        btn.classList.add("active-filter");
+        categories.forEach((cat) => {
+          document.querySelectorAll(`div.${cat}`).forEach((card) => {
+            if (cat !== category) {
+              card.classList.add("hidden");
+            } else {
+              card.classList.remove("hidden");
+            }
+          });
+        });
+      }
+    });
+  });
+});

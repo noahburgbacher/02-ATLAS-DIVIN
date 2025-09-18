@@ -9,9 +9,14 @@
   padding: 12px 8px;
   border: none;
   border-radius: 8px;
-  color: white;
+  color: var(--background);
   font-size: 20px;
   font-family: "Caesar Dressing";
+  svg {
+    path {
+      stroke: var(--background);
+    }
+  }
 }
 .pantheon-menu-buttons.red {
   background-color: var(--red);

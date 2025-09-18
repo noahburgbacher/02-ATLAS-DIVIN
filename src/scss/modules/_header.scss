@@ -1,6 +1,6 @@
 .header-main {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 89px;
   background-color: var(--grey);
   display: flex;
@@ -50,6 +50,8 @@
 }
 .header-burger-menu {
   display: none;
+  position: absolute;
+  right: 12px;
 }
 @media (max-width: 600px) {
   .header-nav {

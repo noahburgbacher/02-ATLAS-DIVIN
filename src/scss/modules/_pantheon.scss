@@ -3,6 +3,7 @@
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 20px;
+  justify-content: center;
 }
 
 .pantheon-card {
@@ -40,19 +41,53 @@
 }
 .pantheon-title {
   z-index: 10;
-  background-color: white;
+  background-color: var(--background);
   padding: 8px 12px;
-  color: black;
+  color: var(--text-secondary);
   max-width: fit-content;
   font-size: 20px;
   font-family: "Caesar Dressing";
   color: var(--blue);
 }
-.pantheon-title.red {
-  color: var(--red);
-}
+
 .pantheon-card.red {
   border: 2px solid var(--red);
+  .pantheon-title {
+    color: var(--red);
+  }
+  .pantheon-bookmark {
+    svg {
+      path {
+        fill: var(--red);
+      }
+    }
+  }
+}
+.pantheon-card.green {
+  border: 2px solid var(--green);
+  .pantheon-title {
+    color: var(--green);
+  }
+  .pantheon-bookmark {
+    svg {
+      path {
+        fill: var(--green);
+      }
+    }
+  }
+}
+.pantheon-card.yellow {
+  border: 2px solid var(--yellow);
+  .pantheon-title {
+    color: var(--yellow);
+  }
+  .pantheon-bookmark {
+    svg {
+      path {
+        fill: var(--yellow);
+      }
+    }
+  }
 }
 .pantheon-categorie {
   display: flex;
@@ -74,7 +109,11 @@
     height: 216px;
     img {
       width: 171px;
-      height: fit-content;
+      height: cover;
     }
   }
+}
+
+.pantheon-card.hidden {
+  display: none;
 }
